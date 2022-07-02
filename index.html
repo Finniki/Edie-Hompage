@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,
+  maximum-scale=5"
+    />
+
+    <link rel="icon" href="devchallenges.png" />
+
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://devchallenges.io/"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/aa5bc2ed98.js" crossorigin="anonymous"></script>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <title>Edie Homepage
+
+    </title>
+    <body>
+      <!-- 
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+      }
+
+      ul {
+        padding-left: 24px;
+      }
+
+      li {
+        margin-bottom: 8px;
+      }
+
+      .welcome {
+        max-width: 800px;
+        margin: 0 auto;
+      }
+
+      .welcome-text {
+        margin-top: 30vh;
+        font-weight: 500;
+      }
+
+      .welcome-text p {
+        font-size: 1rem;
+        font-weight: 400;
+      }
+
+      .welcome-text h1 {
+        font-size: 1.5rem;
+      }
+
+      .welcome-text a {
+        color: #f7542e;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="welcome">
+      <div class="welcome-text">
+        <h1>
+          Welcome to
+          <a href="https://devchallenges.io/" target="_blank"
+            >devchallenges.io</a
+          >
+        </h1>
+
+        <p>
+          If you have any questions, don't hesitate to ask on Discord. Here are
+          7 general steps to complete the challenge:
+        </p>
+      </div>
+
+      <ul>
+        <li><b>Step 1:</b> Create a new repository on github</li>
+        <li><b>Step 2:</b> Copy resources, README.md to your repository</li>
+        <li>
+          <b>Step 3:</b> Login to Figma to checkout font, color, spacing,..
+        </li>
+        <li><b>Step 4:</b> Complete all user stories</li>
+        <li><b>Step 5:</b> Update README.md</li>
+        <li><b>Step 6:</b> Deploy your app and submit your solution</li>
+        <li>
+          <b>Step 7:</b> Share your solution on Discord, Twitter and other
+          platforms to ask for feedback
+        </li>
+      </ul>
+    </div> -->
+  <nav class="nav_bar">
+    <p class="nav_name">Edie</p>
+    <ul class="nav_links">
+      <li class="nav_link">
+        <a href="#home">Home</a>
+      </li>
+      <li class="nav_link">
+        <a href="#services">Services</a>
+      </li>
+      <li class="nav_link">
+        <a href="#works">Our Works</a>
+      </li>
+      <li class="nav_link">
+        <a href="#clients">Clients</a>
+      </li>
+      <li class="nav_link">
+        <a href="#contacts">Contact</a>
+      </li>
+    </ul>
+    <ion-icon name="menu-outline" class="menu"></ion-icon>
+  </nav>
+  <header class="header">
+    <div class="header-texts">
+    <p class="header-text">Unhappy with your website?</p>
+    <h1 class="header-main">We create beautiful<br/> and fast web services</h1>
+   </div>
+    <img src="./heroImage.jpg" alt="A picture of four devs working" class="header-image">
+  </header>
+  <section class="section home" id="home">
+    <h2 class="home-heading">Story, emotion<br /> and purpose</h2>
+    <p class="home-text">We help transform your ideas into real world applications that will outperform your toughest competition and help you achieve your strategic goals in short period of time</p>
+    <p class="header-contact">Want us to contact you?</p>
+    <form action="#" class="home-form">
+      <label for="email"></label>
+      <input type="email" id="email" name="email" placeholder="Email">
+      <button class="btn btn--join">Join</button>
+    </form>
+  </section>
+  <section class="section section--services" id="services">
+    <h2 class="services-heading">We offer high<br/> demand services</h2>
+    <div class="services-flex">
+    <div class="section-service uiux">
+      <ion-icon class="icon icon-pen" name="pencil-outline"></ion-icon>
+      <!-- <i class="fa-solid fa-pen"></i> -->
+      <h3 class="section--service--header">UI/UX Design</h3>      
+      <p class="service-text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis libero odit excepturi ad corporis, voluptate reprehenderit
+      </p>
+      <a href="#" class="btn btn_getstarted">Get Started</a>
+    </div>
+    <div class="section-service frontend">
+   
+       <ion-icon class="icon icon-code" name="code-outline"></ion-icon>
+      <h3 class="section--service--header">Front End</h3>
+       <p class="service-text">
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis libero odit excepturi ad corporis, voluptate reprehenderit  
+      </p>
+      <a href="#" class="btn btn_getstarted">Get Started</a>
+    </div>
+    <div class="section-service backend">
+      <ion-icon class="icon icon-list" name="list-outline"></ion-icon>
+      <!-- <i class="fa-solid fa-list"></i> -->
+      <h3 class="section--service--header"> Back End</h3>
+       <p class="service-text">
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis libero odit excepturi ad corporis, voluptate reprehenderit
+      </p>
+      <a href="#" class="btn btn_getstarted">Get Started</a>
+    </div>
+  </div>
+  </section>
+
+<section class="section section-works" id="works">
+  <h2 class="works-heading">Good design means<br/> good business</h2>
+  <div class="works-grid">
+    <div class="works-smarthome">
+      <img src="./smarthome.jpg" alt="a random photo" class="works-image">
+      <p class="works-text">Full sack application</p>
+      <h4 class="works-subheading">Smart home dashboard</h4>
+    </div>
+    <div class="works-onboard">
+      <img src="./onboard.png" alt="a random photo" class="works-image">
+      <p class="works-text">UI/UX design</p>
+      <h4 class="works-subheading">Onboard application</h4>
+    </div>
+    <div class="works-booking">
+      <img src="./booking.png" alt="a random photo" class="works-image">
+      <p class="works-text">Mobile application</p>
+      <h4 class="works-subheading">Booking system</h4>
+    </div>
+    <div class="works-juiceproduct">
+      <img src="./juice-product.png" alt="a random photo" class="works-image">
+      <p class="works-text">Front End application</p>
+      <h4 class="works-subheading">Juice Product homepage</h4>
+    </div>
+  </div>
+  <a href="#" class="see-more">see more &rarr;</a>
+</section>
+<section class="section section-team">
+  <div class="team-alltext">
+    <p class="team-text">Meet the team</p>
+    <h2 class="team-heading">We are  chilled<br/> and a laidback<br/> team</h2>
+    <p class="team-text2">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+  </div>
+  <div class="team-allimages">
+    <img src="./person1.png" alt="Person 1" class="team-image team-image1">
+    <img src="./person2.png" alt="Person 2" class="team-image team-image2">
+    <img src="./person3.png" alt="Person 3" class="team-image team-image3">
+  </div>
+</section>
+<section class="section section-client" id="clients">
+  <blockquote>
+    "Fast and outstanding results. Edie understands their customer's needs. They have a young and talented team."
+  </blockquote>
+  <div class="section-client1">
+    <img src="./person4.png" alt="Person4" class="section-client1-image">
+    <div class="client-info">
+    <h4 class="section-client1-name">Carlos Tran</h4>
+    <p class="section-client1-title">The Decorate Gatsby</p>
+  </div>
+  </div>
+</section>
+<footer>
+  <div class="footer-links">
+    <ul class="links">
+      <li class="footer-link">
+        <a href="#home">Home</a>
+      </li>
+      <li class="footer-link">
+        <a href="#services">Services</a>
+      </li>
+      <li class="footer-link">
+        <a href="#works">Our Works</a>
+      </li>
+      <li class="footer-link">
+        <a href="#clients">Clients</a>
+      </li>
+      <li class="footer-link">
+        <a href="#contacts">Contact</a>
+      </li>
+    </ul>
+  </div>
+  <div class="footer-contacts" id="contacts">
+    <p class="footer-name">Edie</p>
+    <img src="./instagram.svg"></img>
+    <img src="./linkedin.svg"></img>
+    <img src="./twitter.svg"></img>
+  </div>
+  <div class="footer-message">
+    <p class="footer-message-text">
+      Want us to contact you?
+    </p>
+    <form>
+      <label for="message"></label>
+      <input type="text" id="footer-message" name="email" placeholder="Email">
+      <button class="btn btn--join btn-footer">Join</button>
+    </form>
+  </div>
+</footer>
+
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
